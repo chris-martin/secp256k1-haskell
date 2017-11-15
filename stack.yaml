@@ -1,7 +1,8 @@
-# resolver: lts-9.6
-resolver: nightly-2017-10-02
+resolver: nightly-2017-10-19
+
 packages:
-- '.'
-extra-deps: []
-flags: {}
-extra-package-dbs: []
+  - .
+
+nix:
+  packages:
+    - secp256k1
